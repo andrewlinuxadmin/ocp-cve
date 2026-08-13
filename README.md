@@ -87,4 +87,4 @@ The UI is intentionally concentrated in `App.jsx`, composing PatternFly 6 compon
 
 ## License
 
-Private project (`"private": true` in `package.json`). Add a license file if you plan to distribute it.
+[MIT](LICENSE) © Andrew Max Carlos
