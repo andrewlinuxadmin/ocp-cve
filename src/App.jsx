@@ -857,7 +857,9 @@ export default function App() {
                   <SelectList>
                     {severityOptions.map(option => (
                       <SelectOption key={option} value={option} hasCheckbox isSelected={severityFilter.includes(option)}>
-                        {option}
+                        <Label color={SEVERITY_COLORS[option] || 'grey'} isCompact>
+                          {option}
+                        </Label>
                       </SelectOption>
                     ))}
                     {severityFilter.length < severityOptions.length && (
